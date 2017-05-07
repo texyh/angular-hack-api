@@ -4,9 +4,9 @@ const Image = require('../models/image');
 const cloudinary = require('cloudinary');
 
 cloudinary.config({
-  cloud_name: 'nextekk-team',
-  api_key: '697326863929491',
-  api_secret: 'p4X_r278NREIE_JwLTISabKsENE'
+  cloud_name: '******',
+  api_key: '*********',
+  api_secret: '**************'
 });
 
 module.exports = (app) => {
